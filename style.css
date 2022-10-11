@@ -1,0 +1,97 @@
+@media screen and (min-width:980px) {
+    #navbarText{
+        margin-left: 400px;
+    }  
+}
+@media screen and (max-width:980px) {
+    #kopiko-para{
+        text-align:left;
+    }  
+    #kopiko-para>h1{
+        text-align: center;
+    }
+}
+@media screen and (max-width:570px) {
+    #new{
+        background:#f6ece1;
+    }
+        #new>h2{
+            color: red;
+            text-transform: uppercase;
+            font-size: 7vw;
+            text-align: center;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+    }
+    #last-bg {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+    
+
+.navbar-brand{
+    width: 220px;
+}
+#home{
+    font-size:large;
+    color: rgb(255, 0, 34);
+}
+#tx{
+    color: aliceblue;
+}
+#tx:hover{
+    font-size:large;
+    color: rgb(255, 0, 34);
+    transition: 300ms;
+}
+.navbar-toggler-icon{
+    /* background: #fff; */
+}
+#navbarText{
+    text-align:center;
+}
+@media screen and (min-width: 576px) {
+#bg{
+    position: relative;
+}
+#new{
+    position: absolute;
+    top: 17%;
+    margin-left: 45%;
+}
+#new>h2{
+    color: red;
+    text-transform: uppercase;
+    font-size: 4vw;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    
+}
+.body>p{
+    font-size: 1.2vw;
+    padding-right:40px;
+    
+}
+}
+
+  #last-bg {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
